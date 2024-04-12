@@ -27,6 +27,3 @@ jobs:
     - name: Display SoftUni username
       run: echo "Evil2009"
 
-  run-ui-tests:
-    needs: build_test
-    runs-on: ubuntu-latest
